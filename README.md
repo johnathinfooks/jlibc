@@ -1,5 +1,8 @@
 # jlibc
+It is a bunch of random things I ended up using more than once.
 
-## Johnathin Fooks
+## Author
+Johnathin Fooks
 
-## Last updated 4 August 2025
+## Last updated
+4 August 2025
