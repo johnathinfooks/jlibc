@@ -4,11 +4,13 @@
 
 // STRUCTURE DECLARATIONS
 
-/* Contains the intended string for the cli command and the function to be executed. */
+/* Intended command string. Function to be initiated. Total argc expectation. Number of arguments after expectation. */
 struct cli_command
 {
     char *command_str;
     void (*handler)(int argc, char **argv);
+    int argc_expectation;
+    int argc_after_expectation;
 };
 
 // FUNCTION DECLARATIONS
