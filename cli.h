@@ -1,6 +1,10 @@
 #ifndef CLI_H
 #define CLI_H
 
+// DEPENDANCIES
+#include <string.h>
+
+
 
 // STRUCTURE DECLARATIONS
 
@@ -12,6 +16,8 @@ struct cli_command
     int argc_expectation;
     int argc_after_expectation;
 };
+
+
 
 // FUNCTION DECLARATIONS
 

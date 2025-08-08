@@ -1,5 +1,4 @@
 #include "cli.h"
-#include <string.h>
 
 int parse_cli_commands(struct cli_command commands[], int commands_count, int argc, char **argv)
 {
